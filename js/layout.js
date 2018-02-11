@@ -125,12 +125,14 @@ var Layout = function () {
         trigger.on('click', function() {
             $(this).find('.work-popup-overlay').removeClass('work-popup-overlay-show');
             $(this).find('.work-popup-overlay').addClass('work-popup-overlay-show');
+//            $('html').css('overflow','hidden');
         });
 
         close.on('click', function(e) {
             e.stopPropagation();
             overlay.removeClass('work-popup-overlay-show');
-        });
+//            $('html').css('overflow','show');
+        });        
     }
 
     return {

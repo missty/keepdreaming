@@ -33,6 +33,7 @@ html, html a, body {
 body {
   position: relative;
   font-family: Hind, sans-serif;
+  overflow: hidden;
 }
 
 p {
@@ -79,7 +80,7 @@ a:focus, a:hover, a:active {
   right: -15px;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #4da6ff;
   content: " ";
 }
 
@@ -129,19 +130,19 @@ h4 {
 
 ::selection {
   color: #fff;
-  background: #17bed2;
+  background: #4da6ff;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #17bed2;
+  background: #4da6ff;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #17bed2;
+  background: #4da6ff;
   text-shadow: none;
 }
 
@@ -230,7 +231,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-white-bg:hover, .btn-white-bg:focus, .btn-white-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #4da6ff;
   border-color: transparent;
 }
 
@@ -256,7 +257,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #4da6ff;
   border-color: transparent;
 }
 
@@ -317,7 +318,8 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .promo-block {
   padding: 220px 0 130px;
-  background: #afafaf;
+/*   background: #afafaf; */
+  text-align: right;
 }
 
 .promo-block .promo-block-title {
@@ -560,6 +562,7 @@ fieldset[disabled] .btn-theme {
   position: absolute;
   left: 0;
   background: #515769;
+  
   content: " ";
 }
 
@@ -588,7 +591,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-  background: #17bed2;
+  background: #4da6ff;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -597,7 +600,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon:before, .header .navbar-toggle:hover .toggle-icon:after {
   width: 21px;
   height: 1px;
-  background: #17bed2;
+  background: #4da6ff;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -619,6 +622,7 @@ fieldset[disabled] .btn-theme {
   display: inline-block;
   padding: 15px 0;
 }
+
 
 .header .logo-wrap:focus, .header .logo-wrap:hover {
   text-decoration: none;
@@ -664,8 +668,9 @@ fieldset[disabled] .btn-theme {
 .header .nav-item-logo {
 	position: relative;
   display: block;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
   font-family: Hind, sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -698,6 +703,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   display: block;
   font-size: 13px;
+  letter-spacing: 1px;
   font-weight: 600;
   font-family: Hind, sans-serif;
   color: #fff;
@@ -723,7 +729,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #4da6ff;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -783,6 +789,11 @@ fieldset[disabled] .btn-theme {
     position: absolute;
     top: 19px;
   }
+.header .nav-item-logo {
+
+  color: #515769;
+
+	}
 }
 
 /* Media Queries below 767px */
@@ -973,7 +984,7 @@ fieldset[disabled] .btn-theme {
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #17bed2 !important;
+  color: #4da6ff !important;
 }
 
 .color-white {
@@ -1004,7 +1015,7 @@ fieldset[disabled] .btn-theme {
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #17bed2 !important;
+  background: #4da6ff !important;
 }
 
 .bg-color-white {
@@ -1478,3 +1489,5 @@ fieldset[disabled] .btn-theme {
     text-align: right;
   }
 }
+
+
