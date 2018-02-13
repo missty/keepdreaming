@@ -54,7 +54,7 @@ background: linear-gradient(
 
 .portfolio-modal .modal-content .work-caption {
 	font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
 	color: #515769;
 	margin-bottom: 5px;
 }
@@ -96,8 +96,14 @@ background: linear-gradient(
 	font-size: 15px;
   font-weight: 400;
   font-family: Hind, sans-serif;
-  color: #a6a7aa;
+  color: #333;
   line-height: 1.4;
+}
+
+.portfolio-modal .modal-content .summary p strong {
+
+  color: #515769;
+
 }
 
 .portfolio-modal .close-modal {
