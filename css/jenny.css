@@ -101,9 +101,12 @@ background: linear-gradient(
 }
 
 .portfolio-modal .modal-content .summary p strong {
-
   color: #515769;
+}
 
+.portfolio-modal .modal-content .summary a {
+	color: #333;
+  text-decoration: underline;
 }
 
 .portfolio-modal .close-modal {
