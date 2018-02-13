@@ -30,6 +30,7 @@ background: linear-gradient(
 }
 
 .portfolio-modal .modal-content {
+	position: relative;
   padding: 100px 0;
 }
 
@@ -37,13 +38,38 @@ background: linear-gradient(
 	text-align: center;
 }
 
-.portfolio-modal .modal-content h2 {
+.portfolio-modal .modal-content h3 {
   font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.portfolio-modal .modal-content h4 {  
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.portfolio-modal .modal-content .work-sub-title {
+	font-size: 16px;
   margin-bottom: 15px;
 }
 
+.portfolio-modal .modal-content .work-caption {
+	font-size: 16px;
+  font-weight: 500;
+	color: #515769;
+	margin-bottom: 5px;
+}
+
+.portfolio-modal .modal-content p.axure a {
+	color: #400080 !important;
+}
+
+.portfolio-modal .modal-content .work-frame img {
+	border: solid 1px #e0e1e2;
+
+}
+
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -66,10 +92,18 @@ background: linear-gradient(
   cursor: pointer;
 }
 
+.portfolio-modal .modal-content .modal-bulleted li {
+	font-size: 15px;
+  font-weight: 400;
+  font-family: Hind, sans-serif;
+  color: #a6a7aa;
+  line-height: 1.4;
+}
+
 .portfolio-modal .close-modal {
-  position: absolute;
+  position: fixed;
   top: 25px;
-  right: 25px;
+  right: 45px;
   width: 75px;
   height: 75px;
   cursor: pointer;
@@ -200,3 +234,8 @@ background: linear-gradient(
 .modal-box {
 	padding: 15px;
 }
+
+#contact .contact-detail {
+	color: #999caa;
+}
+
